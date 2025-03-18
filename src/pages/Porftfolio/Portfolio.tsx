@@ -31,7 +31,7 @@ const Portfolio: React.FC = () => {
       image: portfolioImg,
       tags: ["Next.js", "React", "Tailwind CSS", "Responsive Design"],
       demoLink: "https://portfolio.example.com",
-      codeLink: "https://github.com/username/portfolio",
+      codeLink: "https://github.com/tegareyy/tegareyy-portfolio",
     },
     // can add more projects here
   ];
