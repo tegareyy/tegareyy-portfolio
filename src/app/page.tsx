@@ -7,7 +7,7 @@ import Hero from "@/pages/Hero/Hero";
 import About from "@/pages/About/About";
 import Skills from "@/pages/Skills/Skills";
 import Portfolio from "@/pages/Porftfolio/Portfolio";
-import { InfiniteMovingCardsDemo } from "@/pages/Testimonials/Testimonials";
+import InfiniteMovingCardsDemo from "@/pages/Testimonials/Testimonials";
 import Contact from "@/pages/Contact/Contact";
 
 export default function Home() {

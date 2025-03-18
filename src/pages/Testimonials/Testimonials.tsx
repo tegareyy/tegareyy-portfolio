@@ -2,17 +2,6 @@
 
 import { InfiniteMovingCards } from "@/components/ui/InfiniteMovingCards";
 
-export function InfiniteMovingCardsDemo() {
-  return (
-    <div id="testimonials" className="rounded-md flex flex-col antialiased bg-white dark:bg-[#0c0524] items-center justify-center relative overflow-hidden border-b-2">
-      <h1 className="text-4xl font-bold tracking-widest py-6 bg-gradient-to-br from-fuchsia-600 to-white text-transparent bg-clip-text drop-shadow-xl md:text-4xl lg:text-5xl">
-        What they Say
-      </h1>
-      <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
-    </div>
-  );
-}
-
 const testimonials = [
   {
     quote:
@@ -44,3 +33,17 @@ const testimonials = [
     title: "Moby-Dick",
   },
 ];
+
+export default function InfiniteMovingCardsDemo() {
+  return (
+    <div
+      id="testimonials"
+      className="rounded-md flex flex-col antialiased bg-white dark:bg-[#0c0524] items-center justify-center relative overflow-hidden border-b-2"
+    >
+      <h1 className="text-4xl font-bold tracking-widest py-6 bg-gradient-to-br from-fuchsia-600 to-white text-transparent bg-clip-text drop-shadow-xl md:text-4xl lg:text-5xl">
+        What they Say
+      </h1>
+      <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
+    </div>
+  );
+}
