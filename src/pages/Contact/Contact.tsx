@@ -166,7 +166,7 @@ const Contact: React.FC = () => {
 
           {/* Contact Info */}
           <div className="bg-[#070504] rounded-2xl shadow-xl p-6 border-2">
-          <h3 className="text-2xl font-bold bg-gradient-to-br from-fuchsia-600 to-white text-transparent bg-clip-text drop-shadow-xl mb-6">
+            <h3 className="text-2xl font-bold bg-gradient-to-br from-fuchsia-600 to-white text-transparent bg-clip-text drop-shadow-xl mb-6">
               Informasi Kontak
             </h3>
             <div className="space-y-6">
@@ -195,7 +195,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium">Alamat</h4>
-                  <p className="text-gray-600 mt-1">Jl. Contoh No. 123, Jakarta Selatan</p>
+                  <p className="text-gray-600 mt-1">Jl. Kampung Dalam</p>
                 </div>
               </div>
 
@@ -218,7 +218,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium">Telepon</h4>
-                  <p className="text-gray-600 mt-1">+62 123 456 7890</p>
+                  <p className="text-gray-600 mt-1">+62 852-7413-5390</p>
                 </div>
               </div>
 
@@ -241,7 +241,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium">Email</h4>
-                  <p className="text-gray-600 mt-1">info@contoh.com</p>
+                  <p className="text-gray-600 mt-1">tegarifanhamid27@gmail.com</p>
                 </div>
               </div>
 
@@ -251,6 +251,7 @@ const Contact: React.FC = () => {
                 <div className="flex space-x-4">
                   <a
                     href="#"
+                    target="_blank"
                     className="bg-blue-100 p-3 rounded-full text-fuchsia-600 hover:bg-blue-200 transition duration-300"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -259,6 +260,7 @@ const Contact: React.FC = () => {
                   </a>
                   <a
                     href="#"
+                    target="_blank"
                     className="bg-blue-100 p-3 rounded-full text-fuchsia-600 hover:bg-blue-200 transition duration-300"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -266,7 +268,8 @@ const Contact: React.FC = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/tegareyy/"
+                    target="_blank"
                     className="bg-blue-100 p-3 rounded-full text-fuchsia-600 hover:bg-blue-200 transition duration-300"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -274,7 +277,7 @@ const Contact: React.FC = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/tegar-irfan-hamid-161947318/" target="_blank"
                     className="bg-blue-100 p-3 rounded-full text-fuchsia-600 hover:bg-blue-200 transition duration-300"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
