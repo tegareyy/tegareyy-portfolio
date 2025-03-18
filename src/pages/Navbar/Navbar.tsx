@@ -11,19 +11,12 @@ export default function Navbar() {
     e.preventDefault();
     const section = document.getElementById(sectionId);
     if (section) {
-      // Tutup menu mobile setelah mengklik
       setIsOpen(false);
 
       // Hitung offset berdasarkan section ID
       const offset = sectionId === "skills" || sectionId === "contact" ? 100 : 0;
-
-      // Posisi section dari atas halaman
       const sectionTop = section.getBoundingClientRect().top;
-
-      // Posisi scroll saat ini
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-      // Scroll ke posisi section dengan offset
       window.scrollTo({
         top: sectionTop + scrollTop - offset,
         behavior: "smooth",
@@ -64,7 +57,11 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#about" className="block p-4 hover:text-fuchsia-300 active:font-bold active:text-[#D946EF]" onClick={(e) => scrollToSection(e, "about")}>
+            <a
+              href="#about"
+              className="block p-4 hover:text-fuchsia-300 active:font-bold active:text-[#D946EF]"
+              onClick={(e) => scrollToSection(e, "about")}
+            >
               About
             </a>
           </li>
